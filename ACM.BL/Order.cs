@@ -41,5 +41,10 @@ namespace ACM.BL
 
 			return isValid;
 		}
+
+		public override string ToString()
+		{
+			return OrderDate.Value.Date + " (" + OrderId + ")";
+		}
 	}
 }

@@ -36,5 +36,14 @@ namespace ACM.BL
 
 			return isValid;
 		}
+
+		/// <summary>
+		/// Returns name of product.
+		/// </summary>
+		/// <returns></returns>
+		public override string ToString()
+		{
+			return ProductName;
+		}
 	}
 }

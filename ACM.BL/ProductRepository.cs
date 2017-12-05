@@ -27,7 +27,7 @@ namespace ACM.BL
 				product.ProductDescription = "Assorted sizes";
 				product.CurrentPrice = 15.96M; 
 			}
-
+			
 			return product;
 		}
 

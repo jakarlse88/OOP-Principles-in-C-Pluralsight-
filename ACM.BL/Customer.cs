@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase
     {
 		public static int InstanceCount { get; set; }
 
@@ -56,7 +56,7 @@ namespace ACM.BL
 		/// Validates data.
 		/// </summary>
 		/// <returns></returns>
-		public bool Validate()
+		public override bool Validate()
 		{
 			var isValid = true;
 
